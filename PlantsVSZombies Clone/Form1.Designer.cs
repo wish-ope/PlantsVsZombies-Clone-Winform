@@ -15,17 +15,19 @@
 
         private void InitializeComponent()
         {
+            
+
             this.gamePanel = new System.Windows.Forms.Panel();
             this.scoreLabel = new System.Windows.Forms.Label();
             this.plantButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // gamePanel
-            // 
             this.gamePanel.Location = new System.Drawing.Point(22, 89);
             this.gamePanel.Name = "gamePanel";
-            this.gamePanel.Size = new System.Drawing.Size(750, 250);
+            this.gamePanel.Size = new System.Drawing.Size(750, 250); // Kích thước chia hết cho 50
             this.gamePanel.TabIndex = 0;
+           
             // 
             // scoreLabel
             // 
@@ -58,6 +60,7 @@
             this.Text = "Plants vs Zombies Clone";
             this.ResumeLayout(false);
             this.PerformLayout();
+            
         }
 
         private System.Windows.Forms.Panel gamePanel;

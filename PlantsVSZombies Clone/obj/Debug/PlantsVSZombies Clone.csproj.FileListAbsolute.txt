@@ -8,3 +8,13 @@ C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVSZombies Clone\obj\Debug\P
 C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.exe
 C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.pdb
 C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies_Clone.Form1.resources
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\bin\Debug\PlantsVSZombies Clone.exe.config
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\bin\Debug\PlantsVSZombies Clone.exe
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\bin\Debug\PlantsVSZombies Clone.pdb
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.csproj.AssemblyReference.cache
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies_Clone.Form1.resources
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies_Clone.Properties.Resources.resources
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.csproj.GenerateResource.cache
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.csproj.CoreCompileInputs.cache
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.exe
+C:\Lap trinh nang cao\50\PlantsVSZombies Clone\PlantsVsZombies-Clone-Winform\PlantsVSZombies Clone\obj\Debug\PlantsVSZombies Clone.pdb

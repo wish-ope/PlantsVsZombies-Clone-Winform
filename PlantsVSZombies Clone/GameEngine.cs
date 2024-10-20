@@ -13,8 +13,7 @@ public class GameEngine
         gamePanel = panel;
         scoreLabel = label;
 
-        zombieTimer = new Timer();
-        zombieTimer.Interval = 2000;  // Mỗi 2 giây thêm 1 zombie
+        zombieTimer = new Timer { Interval = 2000 };
         zombieTimer.Tick += (s, e) => SpawnZombie();
         zombieTimer.Start();
     }
@@ -22,25 +21,20 @@ public class GameEngine
     private void SpawnZombie()
     {
         Random rand = new Random();
-        int y = rand.Next(0, 5) * 50;  // Chọn vị trí hàng ngẫu nhiên
+        int y = rand.Next(0, 5) * 50;
 
-        Zombie zombie = new Zombie();  // Sử dụng constructor mặc định
-        zombie.Location = new System.Drawing.Point(750, y);  // Đặt vị trí zombie
+        Zombie zombie = new Zombie { Location = new System.Drawing.Point(750, y) };
         gamePanel.Controls.Add(zombie);
 
-        // Tạo Timer để di chuyển zombie
-        Timer moveTimer = new Timer();
-        moveTimer.Interval = 100;
+        Timer moveTimer = new Timer { Interval = 100 };
         moveTimer.Tick += (s, e) => MoveZombie(zombie, moveTimer);
         moveTimer.Start();
     }
-
 
     private void MoveZombie(Zombie zombie, Timer moveTimer)
     {
         zombie.Move();
 
-        // Kiểm tra nếu zombie ra khỏi màn hình => Game Over
         if (zombie.Left < 0)
         {
             moveTimer.Stop();
@@ -48,28 +42,26 @@ public class GameEngine
             Application.Exit();
         }
 
-        // Kiểm tra va chạm giữa zombie và đạn
         foreach (Control control in gamePanel.Controls)
         {
             if (control is Bullet bullet && bullet.Bounds.IntersectsWith(zombie.Bounds))
             {
-                zombie.Health -= bullet.Damage;  // Giảm máu zombie
-                bullet.Dispose();  // Xóa đạn khi trúng zombie
+                zombie.Health -= bullet.Damage;
+                bullet.Dispose();
 
-                if (zombie.Health <= 0)  // Nếu máu zombie <= 0 thì xóa zombie
+                if (zombie.Health <= 0)
                 {
                     moveTimer.Stop();
                     gamePanel.Controls.Remove(zombie);
                     zombie.Dispose();
-                    UpdateScore();  // Cập nhật điểm
+                    UpdateScore();
                     break;
                 }
             }
         }
     }
 
-
-    public void UpdateScore()
+    private void UpdateScore()
     {
         score += 10;
         scoreLabel.Text = "Score: " + score;

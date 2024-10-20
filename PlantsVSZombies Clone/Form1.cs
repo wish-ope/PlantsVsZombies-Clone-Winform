@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,104 +6,81 @@ namespace PlantsVSZombies_Clone
 {
     public partial class Form1 : Form
     {
-        private List<Zombie> zombies = new List<Zombie>(); // Danh sách zombie
-        private Timer gameTimer; // Bộ đếm thời gian cho game
-        private int score = 0; // Điểm số của người chơi
+        private GameEngine gameEngine;
+        private bool isPlanting = false;  // Xác định nếu đang trồng cây
+        private const int CellSize = 50;  // Kích thước mỗi ô vuông
+        private int rows, cols;
+        private bool[,] gridOccupied;  // Kiểm tra ô đã có cây chưa
 
         public Form1()
         {
             InitializeComponent();
-            InitializeGame();
+            InitializeGrid();
+            gameEngine = new GameEngine(gamePanel, scoreLabel);
         }
 
-        // Thiết lập trò chơi
-        private void InitializeGame()
+        private void InitializeGrid()
         {
-            gameTimer = new Timer();
-            gameTimer.Interval = 50; // Cập nhật game mỗi 50ms
-            gameTimer.Tick += GameTick;
-            gameTimer.Start();
+            rows = gamePanel.Height / CellSize;
+            cols = gamePanel.Width / CellSize;
+            gridOccupied = new bool[rows, cols];  // Khởi tạo mảng lưới
+
+            gamePanel.Paint += GamePanel_Paint;  // Đăng ký sự kiện vẽ lưới
+            gamePanel.Click += GamePanel_Click;  // Đăng ký sự kiện click
         }
 
-        private Random random = new Random(); // Tạo số ngẫu nhiên dùng cho nhiều lần
-
-        private void GameTick(object sender, EventArgs e)
-        {
-            if (random.Next(0, 100) < 5) // 5% cơ hội sinh zombie mỗi lần tick
-            {
-                SpawnZombie(); // Sinh zombie
-            }
-
-            MoveZombies();   // Di chuyển zombie
-            CheckCollisions(); // Kiểm tra va chạm giữa đạn và zombie
-        }
-
-
-        // Sự kiện khi nhấn nút "Trồng Cây"
         private void plantButton_Click(object sender, EventArgs e)
         {
-            var plant = new Plant(new Point(50, gamePanel.Controls.Count * 60));
-            plant.StartShooting(gamePanel); // Cây bắt đầu bắn đạn
+            isPlanting = true;
+            MessageBox.Show("Nhấp vào một ô trống để trồng cây!");
+        }
+
+        private void GamePanel_Click(object sender, EventArgs e)
+        {
+            if (isPlanting)
+            {
+                MouseEventArgs me = (MouseEventArgs)e;
+                int row = me.Y / CellSize;
+                int col = me.X / CellSize;
+
+                if (!gridOccupied[row, col])
+                {
+                    PlacePlant(row, col);
+                    gridOccupied[row, col] = true;  // Đánh dấu ô đã có cây
+                    isPlanting = false;
+                }
+                else
+                {
+                    MessageBox.Show("Ô này đã có cây! Vui lòng chọn ô khác.");
+                }
+            }
+        }
+
+        private void PlacePlant(int row, int col)
+        {
+            Point location = new Point(col * CellSize, row * CellSize);
+            Plant plant = new Plant(location);
+            plant.StartShooting(gamePanel);
             gamePanel.Controls.Add(plant);
         }
 
-        // Phương thức di chuyển zombie sang trái
-        private void MoveZombies()
+        // Sự kiện vẽ lưới ô vuông
+        private void GamePanel_Paint(object sender, PaintEventArgs e)
         {
-            foreach (var zombie in zombies)
-            {
-                zombie.Move(); // Di chuyển zombie
+            Graphics g = e.Graphics;
+            Pen pen = new Pen(Color.Black, 1);
 
-                // Nếu zombie đến rìa trái của màn hình, trò chơi kết thúc
-                if (zombie.Left <= 0)
-                {
-                    gameTimer.Stop();
-                    MessageBox.Show("Game Over! Một zombie đã xâm nhập vào căn cứ!");
-                    return;
-                }
+            // Vẽ các đường ngang và dọc tạo thành lưới
+            for (int i = 0; i <= rows; i++)
+            {
+                g.DrawLine(pen, 0, i * CellSize, gamePanel.Width, i * CellSize);
             }
-        }
-
-        // Sinh thêm zombie ở vị trí ngẫu nhiên
-        private void SpawnZombie()
-        {
-            Zombie zombie = new Zombie
+            for (int j = 0; j <= cols; j++)
             {
-                Location = new Point(gamePanel.Width - 60, new Random().Next(0, gamePanel.Height - 50))
-            };
-            zombies.Add(zombie);
-            gamePanel.Controls.Add(zombie);
-        }
-
-        // Kiểm tra va chạm giữa đạn và zombie
-        private void CheckCollisions()
-        {
-            foreach (Control control in gamePanel.Controls)
-            {
-                if (control is Bullet bullet)
-                {
-                    foreach (var zombie in zombies)
-                    {
-                        if (bullet.Bounds.IntersectsWith(zombie.Bounds))
-                        {
-                            zombie.TakeDamage(bullet.Damage); // Zombie nhận sát thương
-                            gamePanel.Controls.Remove(bullet); // Xóa đạn sau khi bắn trúng
-                            score += 10; // Tăng điểm
-                            UpdateScore();
-                            break;
-                        }
-                    }
-                }
+                g.DrawLine(pen, j * CellSize, 0, j * CellSize, gamePanel.Height);
             }
 
-            // Xóa zombie đã chết khỏi danh sách
-            zombies.RemoveAll(z => !z.Visible);
-        }
-
-        // Cập nhật điểm số trên giao diện
-        private void UpdateScore()
-        {
-            scoreLabel.Text = $"Điểm: {score}";
+            pen.Dispose();
         }
     }
 }
