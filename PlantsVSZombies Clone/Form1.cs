@@ -11,12 +11,15 @@ namespace PlantsVSZombies_Clone
         private const int CellSize = 50;  // Kích thước mỗi ô vuông
         private int rows, cols;
         private bool[,] gridOccupied;  // Kiểm tra ô đã có cây chưa
-
+        private string selectedPlantType; // Lưu loại cây đã chọn
+        private int energy = 300; // Năng lượng ban đầu
+        
         public Form1()
         {
             InitializeComponent();
             InitializeGrid();
-            gameEngine = new GameEngine(gamePanel, scoreLabel);
+            gameEngine = new GameEngine(gamePanel, scoreLabel, energyLabel); // Thêm energyLabel vào đây
+            selectedPlantType = "Shooter"; // Mặc định chọn cây bắn súng
         }
 
         private void InitializeGrid()
@@ -32,7 +35,7 @@ namespace PlantsVSZombies_Clone
         private void plantButton_Click(object sender, EventArgs e)
         {
             isPlanting = true;
-            MessageBox.Show("Nhấp vào một ô trống để trồng cây!");
+            //MessageBox.Show("Nhấp vào một ô trống để trồng cây!");
         }
 
         private void GamePanel_Click(object sender, EventArgs e)
@@ -59,9 +62,65 @@ namespace PlantsVSZombies_Clone
         private void PlacePlant(int row, int col)
         {
             Point location = new Point(col * CellSize, row * CellSize);
-            Plant plant = new Plant(location);
-            plant.StartShooting(gamePanel);
-            gamePanel.Controls.Add(plant);
+            Plant plant;
+
+            int cost = 0; // Biến lưu trữ chi phí năng lượng
+
+            switch (selectedPlantType)
+            {
+                case "Shooter":
+                    cost = 30;
+                    plant = new Shooter(location);
+                    break;
+                case "Potato":
+                    cost = 10;
+                    plant = new Potato(location);
+                    break;
+                case "Energy":
+                    cost = 5;
+                    plant = new Energy(location);
+                    break;
+                default:
+                    plant = new Shooter(location); // Mặc định là cây bắn súng
+                    break;
+            }
+
+            // Kiểm tra xem có đủ năng lượng không
+            if (gameEngine.CanPlacePlant(cost))
+            {
+                gamePanel.Controls.Add(plant);
+                gameEngine.UseEnergy(cost); // Giảm năng lượng khi trồng cây
+                plant.StartShooting(gamePanel); // Chỉ cây bắn súng mới bắn
+
+                if (plant is Energy energyPlant)
+                {
+                    energyPlant.StartGeneratingEnergy(gameEngine); // Bắt đầu tạo năng lượng nếu là cây năng lượng
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không đủ năng lượng để trồng cây!");
+            }
+        }
+
+
+
+        private void SelectShooterButton_Click(object sender, EventArgs e)
+        {
+            selectedPlantType = "Shooter";
+            isPlanting = true;
+        }
+
+        private void SelectPotatoButton_Click(object sender, EventArgs e)
+        {
+            selectedPlantType = "Potato";
+            isPlanting = true;
+        }
+
+        private void SelectEnergyButton_Click(object sender, EventArgs e)
+        {
+            selectedPlantType = "Energy";
+            isPlanting = true;
         }
 
         // Sự kiện vẽ lưới ô vuông
