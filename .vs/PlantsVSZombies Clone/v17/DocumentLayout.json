@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|c:\\lap trinh nang cao\\50\\plantsvszombies clone\\plantsvszombies clone\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\plantsvszombies clone\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{AF95BA02-1448-4868-9042-DF1055E0C289}|PlantsVSZombies Clone\\PlantsVSZombies Clone.csproj|solutionrelative:plantsvszombies clone\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Form1.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Form1.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:36:22.981Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Zombie.cs [Design]",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Zombie.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Zombie.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Zombie.cs [Design]",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Zombie.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:10:51.315Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Program.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Program.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Program.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:09:26.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.resx",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Form1.resx",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.resx",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-10-18T04:09:25.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Form1.Designer.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.Designer.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Form1.Designer.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:04:34.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\GameEngine.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\GameEngine.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\GameEngine.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\GameEngine.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:36:04.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plant.cs [Design]",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Plant.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Plant.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Plant.cs [Design]",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Plant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:35:30.495Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs [Design]",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Bullet.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Bullet.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Bullet.cs [Design]",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Bullet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:35:29.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Bullet.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Bullet.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Bullet.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Bullet.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:35:20.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Zombie.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Zombie.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Zombie.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Zombie.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Zombie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:35:01.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Plant.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Plant.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Plant.cs",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Plant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:34:03.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.cs",
+              "RelativeDocumentMoniker": "PlantsVSZombies Clone\\Form1.cs",
+              "ToolTip": "C:\\Lap trinh nang cao\\50\\PlantsVSZombies Clone\\PlantsVSZombies Clone\\Form1.cs [Design]",
+              "RelativeToolTip": "PlantsVSZombies Clone\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:32:22.989Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
